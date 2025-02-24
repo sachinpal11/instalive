@@ -12,3 +12,16 @@
 body {
   font-family: "Noto Sans Hebrew", serif;
 }
+
+.mart-10 {
+  margin-top: 10px;
+}
+
+.marl-10 {
+  margin-left: 10px
+}
+
+.button {
+  padding: 5px 10px;
+  border-radius: 3px;
+}
