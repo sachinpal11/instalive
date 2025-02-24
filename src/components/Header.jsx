@@ -22,9 +22,9 @@ function Header({ name, img, state, setstate }) {
     <div className='z-[3]  fixed bg-transparent w-full flex items-center justify-between mart-10 h-[7vh] text-white '>
       <div className='flex gap-3 items-center h-full'>
         <div className='marl-10 w-[38px] h-[38px] bg-gray-700 overflow-hidden flex items-center justify-center rounded-full'>
-          <img onClick={() => setstate(!state)} src={img} alt="" className='w-full h-full object-cover' />
+          <img onClick={() => setstate(false)} src={img} alt="" className='w-full h-full object-cover' />
         </div>
-        <span onClick={() => setstate(!state)} className='text-lg flex items-center gap-1'>{name}<IoIosArrowDown /> </span>
+        <span onClick={() => setstate(true)} className='text-lg flex items-center gap-1'>{name}<IoIosArrowDown /> </span>
       </div>
       <div className='w-[45%] justify-center items-center flex gap-2'>
         <span className='bg-pink-600 button flex items-center gap-1'>LIVE</span>

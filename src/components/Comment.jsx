@@ -6,7 +6,6 @@ function Comment({ setname, state, setImg }) {
   const nameRef = useRef();
   const handleName = () => {
     if (state) {
-
       console.log("hello")
       setname(nameRef.current.value);
       nameRef.current.value = "";
