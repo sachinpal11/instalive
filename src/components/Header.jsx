@@ -27,8 +27,8 @@ function Header({ name, img, state, setstate }) {
         <span onClick={() => setstate(true)} className='text-lg flex items-center gap-1'>{name}<IoIosArrowDown /> </span>
       </div>
       <div className='w-[45%] justify-center items-center flex gap-2'>
-        <span className='bg-pink-600 button flex items-center gap-1'>LIVE</span>
-        <span className='button flex gap-1 items-center bg-gray-600'><VscEye />{ViewCount}K</span>
+        <span className='bg-pink-600 text-md button flex items-center gap-1'>LIVE</span>
+        <span className='button text-md flex gap-1 items-center bg-gray-600'><VscEye />{ViewCount}K</span>
         <RxCross2 className='text-4xl marr-10' />
       </div>
     </div>
