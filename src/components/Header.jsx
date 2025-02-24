@@ -29,7 +29,7 @@ function Header({ name, img }) {
       <div className='w-[42%] justify-center items-center flex gap-2'>
         <span className='bg-pink-600 button flex items-center gap-1'>LIVE</span>
         <span className='button flex gap-1 items-center bg-gray-600'><VscEye />{ViewCount}</span>
-        <RxCross2 className='text-3xl' />
+        <RxCross2 className='text-5xl marr-10' />
       </div>
     </div>
   )

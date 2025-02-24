@@ -29,9 +29,9 @@ function Heart() {
           src={heart.img}
           className="absolute top-3/4 w-10 right-[10%] h-10"
           initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: -250 }}
+          animate={{ opacity: 1, y: -300 }}
           exit={{ opacity: 0, y: -300 }}
-          transition={{ duration: 2 }}
+          transition={{ duration: 3 }}
         />
       ))}
 
