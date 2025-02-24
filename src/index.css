@@ -25,3 +25,12 @@ body {
   padding: 5px 10px;
   border-radius: 3px;
 }
+
+.marb-10 {
+  margin-bottom: 10px;
+}
+
+.input {
+  padding: 10px 20px;
+  border-radius: 50px;
+}

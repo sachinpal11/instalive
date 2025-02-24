@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import Header from './components/Header'
 import VideoBk from './components/VideoBk'
+import Comment from './components/Comment';
+import Heart from './components/Heart';
 
 function App() {
 
@@ -12,6 +14,9 @@ function App() {
     <div className='bg-neutral-900 w-screen h-screen overflow-hidden' >
       <Header name={userName} img={userImg} />
       <VideoBk />
+      <Heart />
+      <Comment setname={setName} />
+
     </div>
   )
 }
