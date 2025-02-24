@@ -14,9 +14,9 @@ function Heart() {
       ]);
 
       setTimeout(() => {
-        setHearts((prev) => prev.slice(1)); // Remove first heart after animation
-      }, 4000); // Duration of animation
-    }, 500); // Delay between hearts
+        setHearts((prev) => prev.slice(1));
+      }, 3000);
+    }, 1000);
 
     return () => clearInterval(interval);
   }, []);
@@ -27,7 +27,7 @@ function Heart() {
         <motion.img
           key={heart.id}
           src={heart.img}
-          className="absolute top-3/4 w-10 right-[10%] h-10"
+          className="absolute top-3/4 w-10 border-black mix-blend-screen right-[10%] h-10"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: -300 }}
           exit={{ opacity: 0, y: -300 }}
