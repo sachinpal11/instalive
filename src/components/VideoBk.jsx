@@ -15,8 +15,8 @@ const VideoBk = () => {
   }, []);
 
   return (
-    <div className="flex justify-center w-full items-center h-full fixed z-[-1]">
-      <video ref={videoRef} autoPlay playsInline className="w-full h-full object-cover rounded-lg shadow-lg" />
+    <div className="flex justify-center bg-green w-full items-center top-0 h-full fixed z-[1]">
+      <video ref={videoRef} autoPlay playsInline className="w-full h-full object-cover" />
     </div>
   );
 };

@@ -16,7 +16,7 @@ function Header({ name, img }) {
     return () => clearInterval(interval);
   }, []);
   return (
-    <div className='w-full flex items-center justify-between mart-10 h-[10vh] text-white '>
+    <div className='z-[3]  fixed bg-transparent w-full flex items-center justify-between mart-10 h-[10vh] text-white '>
       <div className='flex gap-3 items-center h-full'>
         <div className='marl-10 w-[35px] h-[35px] bg-gray-500 overflow-hidden flex items-center justify-center rounded-full'>
           <img src={img} alt="" className='w-full h-full object-cover' />
